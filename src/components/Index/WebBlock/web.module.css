@@ -1,0 +1,17 @@
+.webBlock{
+    color: #727272;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 9px 17px;
+    border-radius: 27px;
+    background: #FFF; 
+     margin-top:88px
+}
+.wrapper{
+background: #ECECEC;
+display: flex;
+justify-content: space-between;
+}

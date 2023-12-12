@@ -1,0 +1,17 @@
+.btn{
+    color: #ECECEC;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    background: #8B54FF;
+    padding: 17px 75px;
+    margin-top:51px;
+}
+.buttonOneBlockInner{
+    display: flex;
+    justify-content: space-between;
+}

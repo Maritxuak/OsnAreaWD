@@ -1,0 +1,85 @@
+.login_circle_1 {
+    position: absolute;
+    content: "";
+    top: 9%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: var(--element_color);
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.login_circle_2 {
+    position: absolute;
+    content: "";
+    top: 95%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    width: 707px;
+    height: 707px;
+    background: var(--element_color);
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.login_circle_3 {
+    position: absolute;
+    content: "";
+    top: 65%;
+    right: 26%;
+    transform: translate(-50%, -50%);
+    width: 297px;
+    height: 297px;
+    background: var(--element_color);
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.login_circle_4 {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -49%;
+    transform: translate(-50%, -50%);
+    width: 707px;
+    height: 707px;
+    background: var(--element_color);
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.login_circle_5 {
+    position: absolute;
+    content: "";
+    top: 13%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 153px;
+    height: 153px;
+    background: var(--element_color);
+    border-radius: 50%;
+    opacity: 70%;
+}
+@media screen and (max-width: 1300px) {
+    .login_circle_4{
+        display: none;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .login_circle_2{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .login_circle_1{
+        display: none;
+    }
+    .login_circle_3{
+        display: none;
+    }
+    .login_circle_5{
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+  .cursor {
+    display: inline-block;
+    width: 0.2em; 
+    height: 6.2em;
+    background-color: #303030;; 
+    animation: blink 0.7s infinite;
+    transform: translate(0px,20px);
+    }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+.oneBlockTextOsn{
+    color: #4F8668;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.OneBlockTextInnerOne{
+    color: #2A3B92;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.OneBlockTextInnerTwo{
+    color: #FA7800;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.OneBlockTextInner{
+    color: #303030;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 25px;
+}

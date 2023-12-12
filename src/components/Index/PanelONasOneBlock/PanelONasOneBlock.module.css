@@ -1,0 +1,90 @@
+.btn{
+    color: #ECECEC;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    border-radius: 27px;
+    background: #FFF;
+    margin-top:51px;
+    display: flex;
+    max-width: 310px;
+    padding-top:31px;
+    padding-bottom:31px;
+    margin-bottom: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.buttonOneBlockInner{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_text{
+    margin-left: 32px;
+}
+.btn_text_h1_react{
+    color: #61DAFB;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    
+}
+.btn_text_opis{
+    color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+.btn_text_h1_laravel{
+    color: #FF611D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+.btn_text_h1_Bots{
+    color: #FFC851;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+.btn_text_opis_Python{
+    color: #4795D1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+.btn_text_h1_Node{
+    color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+.btn_text_opis_Node{
+    color: #83CD29;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}

@@ -1,0 +1,183 @@
+.mobilelogin {
+    height: 100vh;
+    width: 100%;
+}
+
+.mobileblock1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.mobileblock1_text{
+    color: var(--white_color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    position: relative;
+}
+.mobilecontainer_form{
+    position: relative;
+    width: 100%;
+    height: 340px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.mobileimage{
+    position: absolute;
+    inset: 5px;
+    z-index: 1;
+    border-radius: 16px;
+}
+.mobileform_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileform_box .mobileform h2{
+    color: var(--loginMobile_color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobileform_h2{
+    position: relative;
+    padding-top:110px; 
+    padding-bottom:40px; 
+    font-size: 48px;
+}
+
+.mobileform .mobileinput_box{
+    position: relative;
+    margin: 40px 0;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid var(--element50_color);
+}
+.mobileinput_box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 35px 0 5px;
+    color: var(--element50_color);
+
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.mobileinput_box label{
+    position: absolute;
+    color: var(--element50_color);
+    top: 50%;
+    left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 600;
+    pointer-events: none;
+    transition: .3s;
+}
+.mobileinput_box .mobilegroup{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mobilegroup a{
+    position: relative;
+    top: -15px;
+    color: var(--element50_color);
+    text-decoration: none;
+    font-weight: 500;
+}
+.mobileform_button{
+    display: flex;
+    justify-content: center;
+
+}
+.mobileform_button a{
+    text-decoration: none;
+    color: var(--main_color);
+    background: var(--green_color);
+    padding: 13px 126px;
+    border-radius: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px; 
+}
+.mobileinput_down{
+    margin-bottom: 25px !important; 
+}
+.mobileform_button{
+    margin-top:34px;
+}
+.mobileblock_button{
+    position: absolute;
+}
+.mobilebutton{
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
+width: 100%;
+}
+.mobilebutton_left{
+    position: relative;
+    color: var(--black_color);
+    padding: 13px 46px 14px 55px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+.mobilebutton_left_text{
+    color: var(--href_color);
+}
+.mobilebutton_right_text{
+    color: var(--href_color);
+    margin-left:2px;
+}
+.mobilebutton_right{
+    position: relative;
+    color: var(--black_color);
+    padding: 13px 46px 14px 1px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .block1{
+        display: none;
+    }
+    
+}
+    
+
+@media screen and (max-width: 600px) {
+    .block1{
+        display: none;
+    }
+    
+}
+    

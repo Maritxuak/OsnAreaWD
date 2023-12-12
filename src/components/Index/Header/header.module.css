@@ -1,0 +1,68 @@
+
+:root {
+    --items: 4;
+    --transition-duration: 0.5s;
+    --transition-delay: 0.05s;
+  }
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+}
+.logotype{
+    margin-top: 36px;
+    margin-left: 68px;
+}
+.menu_item{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #575757;
+    margin-top: 44px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 71px;
+    margin-right: 121px;
+}
+.menu_btn{
+    margin-top: 44px;
+    border-radius: 5px;
+    background: #8B54FF;   
+    color: #ECECEC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 8px 43px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
