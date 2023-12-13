@@ -1,0 +1,7 @@
+:root{
+    --burgerDark:#115b4c;
+    --burgerLight: #86EDC8;
+}
+.menu{
+    display: none !important;
+}

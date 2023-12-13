@@ -45,6 +45,23 @@
     padding: 8px 43px;  
 }
 
+@media screen and (max-width: 1200px) {
+    .logotype{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    
+      
+}
+@media screen and (max-width:1200px) {
+    .headerIndex{
+        justify-content: right;
+        padding-top:20px;
+        padding-right:20px;
+    }
+}
 
 
 

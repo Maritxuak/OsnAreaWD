@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
-import classes from "./styles/global.module.scss";
+import classes from "./styles/global.module.css";
 import Loader from "./components/Loader/Loader";
 import Login from './pages/auth/login/Login';
 import Wrong from './pages/wrong_search/Wrong_page';

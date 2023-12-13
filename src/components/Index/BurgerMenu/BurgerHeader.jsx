@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-
+import classes from "./burgerHeader.module.css"
 const COLORS = {
   primaryDark: "#FFF",
   primaryLight: "#575757",
@@ -16,6 +16,10 @@ const MenuLabel = styled.label`
   z-index: 1000;
   box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
   text-align: center;
+  display:none;
+  @media (max-width: 1200px) {
+    display: block;  
+  }
 `;
 
 const NavBackground = styled.div`
@@ -23,8 +27,8 @@ const NavBackground = styled.div`
   top: 0rem;
   right: 0rem;
   background:${COLORS.primaryDark};
-  height: 4rem;
-  width: 4rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   z-index: 600;
   transform: ${(props) => (props.clicked ? "scale(80)" : "scale(0)")};
@@ -124,7 +128,7 @@ const BurgerHeader = () => {
   return (
     <>
       <MenuLabel htmlFor="navi-toggle" onClick={handleClick}>
-        <Icon clicked={click}>&nbsp;</Icon>
+        <Icon  clicked={click}>&nbsp;</Icon>
       </MenuLabel>
       <NavBackground clicked={click}>&nbsp;</NavBackground>
 
